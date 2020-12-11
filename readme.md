@@ -2,10 +2,11 @@
 
 ```c++
 /*
-Version:		V1.0
+Version:		V2.0
 Author:			Vincent
 Create Date:	2020/7/24
 Note:
+2020/12/11		V2.0 Now supply arduino lib: RadioLib
 */
 ```
 
