@@ -2,10 +2,11 @@
 
 ```c++
 /*
-Version:		V2.0
+Version:		V2.1
 Author:			Vincent
 Create Date:	2020/7/24
 Note:
+2021/8/18		V2.1 Fix Lora Gateway 915M bug.
 2020/12/11		V2.0 Now supply arduino lib: RadioLib
 */
 ```

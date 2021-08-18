@@ -75,13 +75,22 @@ class SX127x:
     #   3.1 set_handler_for_irq_on_rising_edge() 
     #   3.2 detach_irq()
     # 4. a function to blink on-board LED. 
-    
+
+    #Correct set  
     def __init__(self,
                  name = 'SX127x',
-                 parameters = {'frequency': 915E6, 'tx_power_level': 24, 'signal_bandwidth': 125E3, 
-                               'spreading_factor': 11, 'coding_rate': 8, 'preamble_length': 8, 
-                               'implicitHeader': False, 'sync_word': 0x12, 'enable_CRC': False},
+                 parameters = {'frequency': 915E6, 'tx_power_level': 2, 'signal_bandwidth': 125E3, 
+                               'spreading_factor': 7, 'coding_rate': 8, 'preamble_length': 8, 
+                               'implicitHeader': True, 'sync_word': 0x12, 'enable_CRC': True},
                  onReceive = None):
+
+    # Old error code, need change sf ,implicitheader, CRC.    
+    # def __init__(self,
+    #              name = 'SX127x',
+    #              parameters = {'frequency': 915E6, 'tx_power_level': 24, 'signal_bandwidth': 125E3, 
+    #                            'spreading_factor': 11, 'coding_rate': 8, 'preamble_length': 8, 
+    #                            'implicitHeader': False, 'sync_word': 0x12, 'enable_CRC': False},
+    #              onReceive = None):
                  
         self.name = name
         self.parameters = parameters 

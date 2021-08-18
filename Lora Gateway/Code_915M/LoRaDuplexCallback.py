@@ -44,6 +44,9 @@ def sendMessage(lora, outgoing):
 def on_receive(lora, payload):
     lora.blink_led()   
     rssi = lora.packetRssi()
+    print(payload)
+    payload = payload[4:]
+    print(payload)
     try:
         #payload_string = payload.decode(encoding='utf-8')
         payload_string =str((payload),'utf-8')
