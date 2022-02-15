@@ -21,6 +21,7 @@ The Makepython Lora transceivers feature the LoRaTM long range modem that provid
 
 - You can get one from: [MakePython Lora](https://www.makerfabs.com/esp32-lora-gateway.html)
 - Hardware and detailed instructions please visit Wiki page:  [MakePython Lora Wiki](https://www.makerfabs.com/wiki/index.php?title=MakePython_Lora)
+- Note that you need solder four 0Ω±5% 0603 resistors at R6,R7,R9,R10 when using RadioLib(RadioLib library requires)
 
 # Related Tests
 
