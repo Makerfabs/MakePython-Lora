@@ -20,7 +20,7 @@ Note:
 
 [Makerfabs home page](https://www.makerfabs.com/)
 
-[Makerfabs Wiki](https://makerfabs.com/wiki/index.php?title=Main_Page)
+[Makerfabs Wiki](https://wiki.makerfabs.com/)
 
 
 
@@ -30,7 +30,7 @@ The Makepython Lora transceivers feature the LoRaTM long range modem that provid
 
 Product Link ： [MakePython Lora](https://www.makerfabs.com/esp32-lora-gateway.html)
 
-Wiki Link : [MakePython Lora Wiki](https://www.makerfabs.com/wiki/index.php?title=MakePython_Lora)
+Wiki Link : [MakePython Lora Wiki](https://wiki.makerfabs.com/MaESP_ESP32_Lora_Gateway.html)
 
 ## Front
 
